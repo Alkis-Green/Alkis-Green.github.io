@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container_nav">
+            <h1><span><a href="index.html">Alkis Green</a></span></h1>
+            <ul>
+                <li>
+                    <a href="about.html"><i class="fas fa-user"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/Alkis-Green" target="_blank"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="contact.html"><i class="fas fa-envelope"></i></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="container_contact">
+        <form method="POST" action="https://formspree.io/f/xjvjgbrp">
+
+            <div class="sub">
+                <label class="labels">Subject</label><input name="name" autocomplete="name" type="text" value=""
+                    required>
+            </div>
+
+            <div class="mail">
+                <label class="labels">@Email</label><input name="_replyto" autocomplete="email" type="email" value=""
+                    required>
+            </div>
+
+            <div class="msg">
+                <label class="labels">Message</label><textarea name="message" class="inputs form-control"
+                    style="height: 150px;"></textarea>
+            </div>
+
+            <div class="inp">
+                <button type="submit" value="Send">Send</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
