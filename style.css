@@ -498,8 +498,8 @@ h4:active {
     .main_header h2 span {
         font-family: 'Oswald', sans-serif;
         font-weight: 600;
-        font-size: 3rem;
-        letter-spacing: 0.7rem;
+        font-size: 2.6rem;
+        letter-spacing: 0.5rem;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
